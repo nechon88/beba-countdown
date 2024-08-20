@@ -14,8 +14,24 @@
             }
             body {
                 display: flex;
+                flex-flow: column;
                 justify-content: center;
                 align-items: center;
+                background: #3D6DE5;
+                background: linear-gradient(135deg, #3D6DE5, #901AC7);
+                color: #ffffff;
+            }
+            .center-container {
+                background: #34495e; 
+                opacity: 1.0; 
+                display: flex; 
+                flex-flow: column; 
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                border-radius: 10px;
+
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             }
         </style>
         <script>
@@ -48,8 +64,13 @@
         </script>
     </head>
     <body>
-        <label id="timer">
-            
-        </label>
+        <div class="center-container">
+            <label style="font-size: 48px; font-weight: 400;">
+                BEBA'S BIRTHDAY BONANZA
+            </label>
+            <label id="timer" style="font-size: 40px; font-weight: 300;">
+                
+            </label>
+        </div>
     </body>
 </html>
